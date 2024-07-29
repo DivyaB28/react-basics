@@ -8,6 +8,8 @@ import ComponentWithRefInstanceVariable from "./6.Refs/RefInstanceVariable";
 import ComponentWithDomApi from "./6.Refs/ComponentWithDomApi";
 import ComponentWithRefRead from "./6.Refs/ComponentWithRedRead";
 import EventAsProps from "./7.Events/EventAsProps";
+import ChatApp from "./8.Lifecycle/ChatApp";
+import PointerMoveApp from "./8.Lifecycle/PointerMove";
 
 // import "../dist/style.css";
 
@@ -21,5 +23,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ComponentWithDomApi label="Label" value="Value" isFocus />
     <ComponentWithRefRead />
     <EventAsProps />
+    <ChatApp />
+    <PointerMoveApp />
   </React.StrictMode>
 );
