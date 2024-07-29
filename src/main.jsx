@@ -3,6 +3,11 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import RenderPropsPattern from "./2.RenderProps/RenderPropsPattern";
 import TemperatureConverter from "./2.RenderProps/TemperatureConverter";
+import CountClicks from "./6.Refs/CountClicks";
+import ComponentWithRefInstanceVariable from "./6.Refs/RefInstanceVariable";
+import ComponentWithDomApi from "./6.Refs/ComponentWithDomApi";
+import ComponentWithRefRead from "./6.Refs/ComponentWithRedRead";
+import EventAsProps from "./7.Events/EventAsProps";
 
 // import "../dist/style.css";
 
@@ -11,5 +16,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
     <RenderPropsPattern />
     <TemperatureConverter />
+    <CountClicks />
+    <ComponentWithRefInstanceVariable />
+    <ComponentWithDomApi label="Label" value="Value" isFocus />
+    <ComponentWithRefRead />
+    <EventAsProps />
   </React.StrictMode>
 );
