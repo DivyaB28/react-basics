@@ -10,6 +10,8 @@ import ComponentWithRefRead from "./6.Refs/ComponentWithRedRead";
 import EventAsProps from "./7.Events/EventAsProps";
 import ChatApp from "./8.Lifecycle/ChatApp";
 import PointerMoveApp from "./8.Lifecycle/PointerMove";
+import TodoListApp from "./3.HOC/TodoList";
+import TaskApp from "./Hooks/UseReducer/TaskApp";
 
 // import "../dist/style.css";
 
@@ -25,5 +27,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <EventAsProps />
     <ChatApp />
     <PointerMoveApp />
+    <TodoListApp />
+    <br />
+    <TaskApp />
   </React.StrictMode>
 );
